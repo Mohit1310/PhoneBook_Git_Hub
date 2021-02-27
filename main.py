@@ -26,7 +26,7 @@ def phonebook():
                 contact[contact_name]=contact_number
 
         if option == 2:
-            if bool(contact) != False
+            if bool(contact) != False:
                 for k,v in contact.items():
                     print("{} ==> {}".format(k,v))
             else:
