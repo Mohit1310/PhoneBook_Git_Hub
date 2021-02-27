@@ -21,7 +21,8 @@ def phonebook():
             contact_number = int(input("Enter your number"))
 
         if option == 2:
-            pass
+            if bool(contact) !=False:
+                
         if option == 3:
             pass
         if option == 4:
